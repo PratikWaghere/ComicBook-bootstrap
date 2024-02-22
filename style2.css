@@ -1,0 +1,179 @@
+.header{
+    font-weight: bolder;
+    /* background-color: #000; */
+    color: rgb(15, 15, 63) !important ;
+}
+
+*{
+  font-family: "Comic Neue", cursive;
+}
+section .section-header h2{
+  font-weight: bold;
+  color: red;
+}
+/* section{
+     background-color: rgba(0, 0, 0, 1.5);
+} */
+
+  .section-padding{
+    padding: 50px 0;
+  }
+
+  .carousel-item{
+    height: 100vh;
+    min-height: 300px;
+  }
+
+  .carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+  }
+  .carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+  }
+
+  .carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+  }
+
+  .carousel-inner::before{
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+  }
+
+  .navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  
+  .navbar-light .navbar-brand{
+    color: #000 ;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  .navbar-light .navbar-brand:focus,
+  .navbar-light .navbar-brand:focus{
+    color: #000;
+  }
+
+  .navbar-light .navbar-nav .navbar-link{
+    color: #000;
+  }
+
+  .w-100{
+    height: 100vh;
+  }
+
+  @media only screen and (max-width:767px){
+      .navbar-nav{
+        text-align: center;
+      }
+      .carousel-caption{
+        bottom: 125px;
+      }
+      .carousel-caption h5{
+        font-size: 17px;
+      }
+      .carousel-caption a{
+        padding: 10px 15px;
+      }
+      .carousel-caption p{
+        width: 100%;
+        line-height:1.6;
+        font-size: 12px;
+      }
+
+  }
+
+
+  .services .card-body i{
+     font-size: 50px; 
+  }
+
+  .team .card-body{
+    font-size: 20px;
+  }
+
+  .portfolio .card{
+    box-shadow: 15px 15px 40px rgba(255, 0, 0, 0.15);
+   }
+   .team .card{
+    box-shadow: 15px 15px 40px rgba(107, 70, 0, 0.15);
+  }
+  /* #about{
+    padding: 60px;
+  } */
+ .super-touch{
+  cursor: pointer;
+  color: black;
+ }
+ .super-touch:hover{
+  color: blueviolet;
+ }
+ /* img #superh-image{
+  animation: glow 3s infinite ease ;
+ }
+  #superh-image{
+   animation: glow 3s infinite ease ;
+  }
+*/
+  @keyframes glow{
+     0%{
+          filter: drop-shadow(5px 5px 10px #4caf50);
+     }
+     100%{
+      filter: drop-shadow(5px 5px 20px #3fff46);
+ }
+  } 
+
+  .super-main{
+    justify-content: space-around;
+  }
+   .box{
+    width: 3px;
+    height: 40px;
+    background-color:coral ;
+   }
+   .super-touch:hover .box{
+    background-color: blueviolet;
+   }
+   .super-name{
+    border-bottom: 1px solid purple;
+    border-radius: 10px;
+    padding: 10px;
+   }
+
+   ::-webkit-scrollbar{
+    width: 10px;
+   }
+   ::-webkit-scrollbar-track {
+    background-color: black;
+   }
+   ::-webkit-scrollbar-thumb{
+    background-color: #ffc107;
+    border-radius: 30%;
+   }
+
+   .pointer{
+    position: sticky;
+    top: 30px;
+    animation: glow 3s infinite;
+   }
+
+
+   
